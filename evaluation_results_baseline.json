@@ -1,0 +1,29 @@
+{
+  "model": "llama-3.1-8b-instant (zero-shot)",
+  "test_set_size": 30,
+  "parseable": 28,
+  "accuracy": 0.5714,
+  "macro_f1": 0.5202,
+  "per_class": {
+    "analysis": {
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.75
+    },
+    "interpretation": {
+      "precision": 0.5,
+      "recall": 0.2,
+      "f1": 0.2857
+    },
+    "opinion": {
+      "precision": 0.4762,
+      "recall": 1.0,
+      "f1": 0.6452
+    },
+    "reaction": {
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4
+    }
+  }
+}
